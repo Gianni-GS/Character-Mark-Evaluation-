@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="422dp"
+        android:layout_height="34dp"
+        android:text="Enter Grade (A-E)"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+        />
+
+
+    <EditText
+        android:id="@+id/editGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Grade"
+        android:inputType="textCapCharacters"
+        android:padding="12dp"
+        android:textSize="50sp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#36E43D"
+        android:text="Check Grade"
+        android:textColor="#F7F7F8"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF"
+        android:text="Reset"
+        android:textColor="#FDFDFD"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will appear here"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+
+        />
+
+
+
+</LinearLayout>
+
+
